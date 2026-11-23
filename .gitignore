@@ -1,0 +1,14 @@
+# Local Python environment (recreated by setup_windows.bat)
+.venv/
+__pycache__/
+*.pyc
+
+# CLIP image model, ~290 MB: downloaded automatically on first run
+model/clip_b32_datacomp.ts
+model/*.part
+
+# Your own example photos (survey photos with GPS text) stay on this computer
+corrections/accept/*
+corrections/reject/*
+!corrections/accept/.gitkeep
+!corrections/reject/.gitkeep
